@@ -15,4 +15,4 @@ _start:
     XOR     rdi, rdi
     syscall
 
-; nasm -felf64 hi.asm -o hi.o; ld -o hi hi.o; chmod u+x hi
+; nasm -felf64 hi.asm -o bin/hi.o; ld -o bin/hi bin/hi.o; chmod u+x bin/hi
